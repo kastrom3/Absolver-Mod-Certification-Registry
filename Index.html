@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Absolver Mod Certification Registry</title>
+
+	<link rel="stylesheet" href="https://tovern.tk/RU/Absolver/styles/light.css" media="(prefers-color-scheme: light)">
+	<link rel="stylesheet" href="https://tovern.tk/RU/Absolver/styles/dark.css" media="(prefers-color-scheme: dark)">
+	<link rel="stylesheet" href="https://tovern.tk/RU/Absolver/styles/index.css">
+	<link rel="stylesheet" href="AMCR.css">
+</head>
+<body>
+		<header>
+			<a href="../"><img src="https://tovern.tk//Images/Absolver/UI/arrow_right.png" style="transform: rotateY(180deg);"></a>
+			<fieldset class="switcher">
+				<input class="switcher__radio switcher__radio--light" type="radio" name="color-scheme" value="light" aria-label="Светлая">
+				<input class="switcher__radio switcher__radio--auto" type="radio" name="color-scheme" value="auto" aria-label="Системная" checked>
+				<input class="switcher__radio switcher__radio--dark" type="radio" name="color-scheme" value="dark" aria-label="Тёмная">
+				<div class="switcher__status"></div>
+			</fieldset>
+		</header>
+    <main style="padding-top: 90px;">
+    	<div>
+	        <h2>Mods</h2>
+	        <ul id="mod-list"></ul>
+	
+			<h2>Available Patches</h2>
+			<ul id="patch-list"></ul>
+	    </div>
+	
+	    <div id="selected">
+	        <h2>Selected mods</h2>
+	        <ul id="selected-mods"></ul>
+	    </div>
+	
+	    <script src="script.js"></script>
+    </main>
+	<script src="https://tovern.tk/RU/Absolver/index.js"></script>
+	<footer>
+		<iframe src="https://tovern.tk/RU/Absolver/footer.html"></iframe>
+	</footer>
+</body>
+</html>

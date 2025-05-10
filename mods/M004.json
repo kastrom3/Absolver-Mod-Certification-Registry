@@ -1,0 +1,10 @@
+{
+	"name": "Rift-Money",
+	"description": "Убирает все предметы из монет и дисков Разлома, оставляя лишь осколки.",
+	"nonConflicting": true,
+	"conflictsWith": [
+		"Absolver/Content/DB/LootBox/LB_Small_BaseLootList.uasset",
+		"Absolver/Content/DB/LootBox/LootBoxDB.uasset"
+	],
+	"download": "https://tovern.tk/RU/Absolver/projects/Mods/#4"
+}

@@ -1,0 +1,18 @@
+{
+	"name": "NoWeapons",
+	"description": "Отключает спавн NPC и оружия во всех локациях.",
+	"nonConflicting": true,
+	"conflictsWith": [
+		"Absolver/Content/Maps/MainMap/MainMap_City_Coliseum_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_City_Pier_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_City_SloppedRuins_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_Forest_Lodge_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_Forest_Path_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_Forest_Suburb_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_Forest_Swamp_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_Forest_Village_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_Temple_Lower_LD.umap",
+		"Absolver/Content/Maps/MainMap/MainMap_Temple_Stock_LD.umap"
+	],
+	"download": "https://tovern.tk/RU/Absolver/projects/Mods/#3"
+}

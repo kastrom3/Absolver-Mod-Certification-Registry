@@ -1,0 +1,114 @@
+main {
+	display: flex;
+	--cholor: #09f;
+	--cholorbg: #09f6;
+	div{
+		width: 100%;
+	}
+}
+
+#mod-list, #selected-mods {
+	list-style: none;
+	padding: 0 15px 0 15px;
+	min-width: 300px;
+}
+
+#selected {
+	border-left: 2px solid #aaa;
+	padding-left: 1rem;
+	width: 30%;
+	div {
+		background-color: var(--cholorbg);
+	}
+}
+
+.potential-conflict {
+	--cholor: #ff8c00;
+	--cholorbg: #ff8c0066;
+	cursor: help;
+}
+
+.requires {
+	--cholor: #e0f;
+	background-color: #e0f6;
+	cursor: help;
+}
+
+.has-alternatives {
+	--cholor: #0f0;
+	--cholorbg: #0f06;
+	cursor: help;
+}
+
+.tooltip {
+	position: relative;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	background-color: #000b;
+	color: #fff;
+	text-align: left;
+	padding: 6px 10px;
+	border-radius: 4px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: calc(100% - 230px);
+	white-space: pre-wrap;
+	width: 200px;
+	font-size: 15px;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+/* Скрываем оригинальный чекбокс */
+.tooltip input {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* Стиль для метки (контейнер для треугольника и текста) */
+.tooltip label {
+	display: flex;
+	width: 100%;
+	cursor: pointer;
+}
+
+/* Треугольник (псевдоэлемент вместо span) */
+.tooltip label::before {
+	content: "";
+	display: block;
+	min-width: 30px;
+	max-width: 30px;
+	height: 30px;
+	background-color: color-mix(in lab, var(--color) 60%, var(--Color2) 60%);
+	clip-path: polygon(20% 0%, 5% 100%, 100% 60%);
+}
+
+.tooltip input:checked + label {
+	background-color: var(--cholorbg);
+}
+
+/* Стиль при активации */
+.tooltip input:checked + label::before {
+	background-color: var(--cholor);
+}
+
+/* Галочка (появляется при :checked) */
+.tooltip input:checked + label::after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 6px;
+	top: 6px;
+	width: 9px;
+	height: 15px;
+	border: solid var(--smartphoto);
+	border-width: 0 3px 3px 0;
+	transform: rotate(45deg);
+}

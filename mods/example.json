@@ -1,0 +1,10 @@
+{
+	"name": "Example",
+	"description": "Description mod",
+	"nonConflicting": false,
+	"conflictsWith": [
+		"Absolver/Content/Animations/Absorb/bare_hands/Absorb_BL.uasset",
+		"Absolver/Content/Maps/MainMap/MainMap_Temple_Stock_LD.umap"
+	],
+	"download": "https://example.com/mod-links.html"
+}
