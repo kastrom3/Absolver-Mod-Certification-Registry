@@ -10,6 +10,15 @@
 	<link rel="stylesheet" href="AMCR.css">
 </head>
 <body>
+	<header>
+		<a href="../"><img src="https://tovern.tk//Images/Absolver/UI/arrow_right.png" style="transform: rotateY(180deg);"></a>
+		<fieldset class="switcher">
+			<input class="switcher__radio switcher__radio--light" type="radio" name="color-scheme" value="light" aria-label="Светлая">
+			<input class="switcher__radio switcher__radio--auto" type="radio" name="color-scheme" value="auto" aria-label="Системная" checked>
+			<input class="switcher__radio switcher__radio--dark" type="radio" name="color-scheme" value="dark" aria-label="Тёмная">
+			<div class="switcher__status"></div>
+		</fieldset>
+	</header>
 	<main style="padding-top: 90px;">
 		<div id="allmods">
 			<label style="display: block;">
@@ -26,7 +35,7 @@
 		</div>
 
 		<div class="force-dark-theme" id="info">
-			<h2 class="force-dark-theme">Mode information</h2>
+			<h2>Mode information</h2>
 			<div id="mod-info" class="mod-info-box">Наведи курсор на мод, чтобы увидеть описание</div>
 		</div>
 
@@ -37,5 +46,8 @@
 	</main>
 	<script src="script.js"></script>
 	<script src="https://tovern.tk/RU/Absolver/index.js"></script>
+	<footer>
+		<iframe src="https://tovern.tk/RU/Absolver/footer.html"></iframe>
+	</footer>
 </body>
 </html>

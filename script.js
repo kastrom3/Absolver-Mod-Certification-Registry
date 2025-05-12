@@ -332,8 +332,10 @@ function getModByFile(fileName) {
 				meta.className = 'mod-meta';
 
 				const hr = document.createElement('hr');
+				hr.className = 'force-dark-theme';
 
 				const list = document.createElement('ul');
+				list.className = 'force-dark-theme';
 
 				if (mod.type === 'patch' && mod.patches?.length) {
 					list.textContent = `Patched mods:`;
