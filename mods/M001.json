@@ -1,7 +1,12 @@
 {
 	"name": "Resolver",
-	"description": "Мод направленный на улучшение игры, сохраняя ванильность и оригинальную атмосферу.",
+	"description": "Mod aimed at improving the game, while maintaining vanilla and original atmosphere.",
+	"screenshots": [],
+	"version": "B.1.6",
 	"nonConflicting": false,
+	"requires": [],
+	"alternatives": [],
+	"devOnly": false,
 	"conflictsWith": [
 		"Absolver/Content/Animations/Absorb/bare_hands/Absorb_BL.uasset",
 		"Absolver/Content/Animations/Absorb/bare_hands/Absorb_BR.uasset",

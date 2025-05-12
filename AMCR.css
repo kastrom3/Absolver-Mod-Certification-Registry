@@ -2,21 +2,41 @@ main {
 	display: flex;
 	--cholor: #09f;
 	--cholorbg: #09f6;
-	div{
-		width: 100%;
-	}
 }
 
 #mod-list, #selected-mods {
 	list-style: none;
 	padding: 0 15px 0 15px;
-	min-width: 300px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Левая колонка */
+#allmods {
+	width: 25%;
+}
+
+/* Центральная колонка */
+#info {
+	width: 50%;
+	padding: 20px;
+	background-color: #000d;
+	-webkit-mask-box-image: url(https://tovern.tk//Images/Absolver/Stencils/UI_box.png) 65;
+}
+
+/* Блок описания */
+.mod-info-box {
+	white-space: pre-wrap;
+}
+.ver{
+	text-align: right;
 }
 
 #selected {
-	border-left: 2px solid #aaa;
-	padding-left: 1rem;
-	width: 30%;
+	width: 25%;
 	div {
 		background-color: var(--cholorbg);
 	}

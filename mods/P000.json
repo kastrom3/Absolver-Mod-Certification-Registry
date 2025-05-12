@@ -1,0 +1,11 @@
+{
+	"name": "Name Patch",
+	"description": "Patch Description",
+	"version": "1.0.0",
+	"patches": ["M000", "Test6", "M001"],
+	"devOnly": true,
+	"conflictsWith": [
+		"Absolver/Absolver/Content/Maps/TrainingMap/Training.umap"
+	],
+	"download": ""
+}

@@ -1,7 +1,12 @@
 {
 	"name": "NoWeapons",
-	"description": "Отключает спавн NPC и оружия во всех локациях.",
+	"description": "Disables spawning of NPCs and weapons in all locations",
+	"screenshots": [],
+	"version": "1.0.1",
 	"nonConflicting": true,
+	"requires": [],
+	"alternatives": [],
+	"devOnly": false,
 	"conflictsWith": [
 		"Absolver/Content/Maps/MainMap/MainMap_City_Coliseum_LD.umap",
 		"Absolver/Content/Maps/MainMap/MainMap_City_Pier_LD.umap",

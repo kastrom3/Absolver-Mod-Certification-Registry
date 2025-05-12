@@ -1,0 +1,18 @@
+{
+	"name": "Cheat Resolver",
+	"description": "Special version of Resolver with all items and attacks.",
+	"screenshots": [],
+	"version": "B.1.6",
+	"nonConflicting": false,
+	"requires": ["M001", "B.1.6"],
+	"alternatives": [],
+	"devOnly": true,
+	"conflictsWith": [
+		"Absolver/Content/DB/Attacks/attacks.uasset",
+		"Absolver/Content/DB/Characters/NewCharacterBuildList.uasset",
+		"Absolver/Content/DB/Characters/Builds/Standard/Windflow_Cheats.uasset",
+		"Absolver/Content/DB/Cheat/CheatDB.uasset",
+		"Absolver/Content/DB/Shop/PowersShop.uasset"
+	],
+	"download": ""
+}

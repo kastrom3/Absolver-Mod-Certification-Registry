@@ -1,10 +1,15 @@
 {
 	"name": "Rift-Money",
-	"description": "Убирает все предметы из монет и дисков Разлома, оставляя лишь осколки.",
+	"description": "Removes all items from Rift coins and disks, leaving only fragments.",
+	"screenshots": [],
+	"version": "1.0.1",
 	"nonConflicting": true,
+	"requires": [],
+	"alternatives": [],
+	"devOnly": false,
 	"conflictsWith": [
 		"Absolver/Content/DB/LootBox/LB_Small_BaseLootList.uasset",
 		"Absolver/Content/DB/LootBox/LootBoxDB.uasset"
 	],
-	"download": "https://tovern.tk/RU/Absolver/projects/Mods/#4"
+	"download": "https://tovern.tk/EN/Absolver/projects/Mods/#4"
 }

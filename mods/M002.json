@@ -1,7 +1,12 @@
 {
 	"name": "NoNPC",
-	"description": "Отключает спавн NPC во всех локациях.",
+	"description": "Disables NPC spawning in all locations",
+	"screenshots": [],
+	"version": "1.0.1",
 	"nonConflicting": true,
+	"requires": [],
+	"alternatives": [],
+	"devOnly": false,
 	"conflictsWith": [
 		"Absolver/Content/Maps/MainMap/MainMap_City_Coliseum_LD.umap",
 		"Absolver/Content/Maps/MainMap/MainMap_City_Pier_LD.umap",

@@ -10,34 +10,32 @@
 	<link rel="stylesheet" href="AMCR.css">
 </head>
 <body>
-		<header>
-			<a href="../"><img src="https://tovern.tk//Images/Absolver/UI/arrow_right.png" style="transform: rotateY(180deg);"></a>
-			<fieldset class="switcher">
-				<input class="switcher__radio switcher__radio--light" type="radio" name="color-scheme" value="light" aria-label="Светлая">
-				<input class="switcher__radio switcher__radio--auto" type="radio" name="color-scheme" value="auto" aria-label="Системная" checked>
-				<input class="switcher__radio switcher__radio--dark" type="radio" name="color-scheme" value="dark" aria-label="Тёмная">
-				<div class="switcher__status"></div>
-			</fieldset>
-		</header>
-    <main style="padding-top: 90px;">
-    	<div>
-	        <h2>Mods</h2>
-	        <ul id="mod-list"></ul>
-	
+	<main style="padding-top: 90px;">
+		<div id="allmods">
+			<label style="display: block;">
+				<input type="checkbox" id="toggle-devmods"> Show DevMods
+			</label>
+			<section>
+			<h2>Mods</h2>
+			<ul id="mod-list"></ul>
+			</section>
+			<section>
 			<h2>Available Patches</h2>
 			<ul id="patch-list"></ul>
-	    </div>
-	
-	    <div id="selected">
-	        <h2>Selected mods</h2>
-	        <ul id="selected-mods"></ul>
-	    </div>
-	
-	    <script src="script.js"></script>
-    </main>
+			</section>
+		</div>
+
+		<div class="force-dark-theme" id="info">
+			<h2 class="force-dark-theme">Mode information</h2>
+			<div id="mod-info" class="mod-info-box">Наведи курсор на мод, чтобы увидеть описание</div>
+		</div>
+
+		<div id="selected">
+			<h2>Selected mods</h2>
+			<ul id="selected-mods"></ul>
+		</div>
+	</main>
+	<script src="script.js"></script>
 	<script src="https://tovern.tk/RU/Absolver/index.js"></script>
-	<footer>
-		<iframe src="https://tovern.tk/RU/Absolver/footer.html"></iframe>
-	</footer>
 </body>
 </html>
